@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoopStudio</title>
+    <!-- FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Javascript link -->
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- hamburger menu -->
+    <button
+      aria-expanded="false"
+      aria-controls="nav__list"
+      class="nav-toggle"
+    ></button>
+
+    <!-- header -->
+    <header class="header">
+      <nav class="nav">
+        <div>
+          <img
+            aria-expanded="false"
+            class="logo"
+            src="images/logo.svg"
+            alt="logo"
+          />
+        </div>
+
+        <ul data-visible="false" class="nav__list" id="nav__list">
+          <li><a href="" class="nav__link">About</a></li>
+          <li><a href="" class="nav__link">Careers</a></li>
+          <li><a href="" class="nav__link">Events</a></li>
+          <li><a href="" class="nav__link">Products</a></li>
+          <li><a href="" class="nav__link">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__title uppercase">
+        <h1>immersive experiences that deliver</h1>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <div class="wrapper">
+        <section class="flex-column parent bottom-margin">
+          <div>
+            <img
+              src="images/mobile/image-interactive.jpg"
+              alt="founder of the company wearing vr headset"
+              class="illustration"
+            />
+          </div>
+          <div class="flex-column parent__on-image">
+            <h2 class="uppercase">the leader in interactive vr</h2>
+            <p class="clr-gray">
+              Founded in 2011, Loppstudio has been producing world-class virtual
+              reality projects for some of the best companies around the globe.
+              Our award-winning creations have transformed businesses through
+              digital experiences that bind to their brand.
+            </p>
+          </div>
+        </section>
+
+        <div class="grid">
+          <h2 class="uppercase grid--title">our creations</h2>
+          <div class="grid-2">
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-deep-earth.jpg"
+                />
+                <img src="images/mobile/image-deep-earth.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>deep earth</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-night-arcade.jpg"
+                />
+                <img src="images/mobile/image-night-arcade.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>night arcade</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-soccer-team.jpg"
+                />
+                <img src="images/mobile/image-soccer-team.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>soccer team vr</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-grid.jpg"
+                />
+                <img src="images/mobile/image-grid.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>the grid</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-from-above.jpg"
+                />
+                <img src="images/mobile/image-from-above.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>from up above vr</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-pocket-borealis.jpg"
+                />
+                <img src="images/mobile/image-pocket-borealis.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>pocket borealis</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-curiosity.jpg"
+                />
+                <img src="images/mobile/image-curiosity.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>the curiosity</p>
+              </div>
+            </div>
+            <div class="grid__card">
+              <picture class="grid__image">
+                <source
+                  media="(min-width: 50em)"
+                  srcset="images/desktop/image-fisheye.jpg"
+                />
+                <img src="images/mobile/image-fisheye.jpg" alt="" />
+              </picture>
+              <div class="image-desc uppercase">
+                <p>make it fisheye</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn uppercase">see all</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <!-- class is footer logo since logo is position absolute in header -->
+
+      <div class="footer__first">
+        <img src="images/logo.svg" alt="logo" class="footer-logo" />
+        <ul class="navigation flex-column">
+          <li><a href="" class="navigation__link">About</a></li>
+          <li><a href="" class="navigation__link">Careers</a></li>
+          <li><a href="" class="navigation__link">Events</a></li>
+          <li><a href="" class="navigation__link">Products</a></li>
+          <li><a href="" class="navigation__link">Support</a></li>
+        </ul>
+      </div>
+
+      <ul class="socials">
+        <li>
+          <a href="" class="socials__link">
+            <img
+              src="images/icon-facebook.svg"
+              alt="facebook icon"
+              class="social-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="" class="socials__link">
+            <img
+              src="images/icon-twitter.svg"
+              alt="twitter icon"
+              class="social-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="" class="socials__link">
+            <img
+              src="images/icon-pinterest.svg"
+              alt="pinterest icon"
+              class="social-icon"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="" class="socials__link">
+            <img
+              src="images/icon-instagram.svg"
+              alt="instagram icon"
+              class="social-icon"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
