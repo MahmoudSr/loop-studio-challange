@@ -45,7 +45,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 /* A elements that don't have a class get default styles */
@@ -87,6 +86,7 @@ body {
   font-family: var(--ff-main);
   font-weight: var(--fw-400);
   text-align: center;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 h1,
@@ -103,7 +103,7 @@ h2 {
 .header {
   background-image: url(images/mobile/image-hero.jpg);
   background-size: cover;
-  padding: 1em;
+  padding: 1em env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 .header__title {
   border: 2px solid var(--clr-white);
