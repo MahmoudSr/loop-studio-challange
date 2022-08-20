@@ -102,7 +102,7 @@ h2 {
 .header {
   background-image: url(images/mobile/image-hero.jpg);
   background-size: cover;
-  padding: env(safe-area-inset-top, 1em);
+  padding: 1em;
 }
 .header__title {
   border: 2px solid var(--clr-white);
