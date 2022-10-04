@@ -86,8 +86,8 @@ body {
   font-family: var(--ff-main);
   font-weight: var(--fw-400);
   text-align: center;
-  padding-left: max(1rem, env(safe-area-inset-left));
-  padding-right: max(1rem, env(safe-area-inset-right));
+/*   padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right)); */
 }
 
 h1,
